@@ -1,0 +1,73 @@
+body {
+background-image: url(../image/hoi.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+}
+.container {
+  background-image: url(../image/hi.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+    max-width: 255px;
+    margin: 40px auto;
+    padding: 20px;
+    
+    border: 5px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: green;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: black;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+p span {
+  color: red;
+}
+h3 span {
+  color: red;
+}
+social-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 16px;
+  text-decoration: none;
+  font-weight: bolder;

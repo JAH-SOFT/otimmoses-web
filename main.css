@@ -1,0 +1,146 @@
+@font-face {
+  font-family: News;
+  src: url(../fonts/mb.ttf);
+}
+h1{
+  text-align: center;
+  color: white;
+  font-family: News;
+}
+
+ {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: orange;
+}
+.img{
+  background-image: url(../image/hoi.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  padding: 15px 20px;
+  color: #fff;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.logo span {
+  color: red;
+}
+
+.menu-icon {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.side-nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-image: url(../image/hi.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+  margin-top: 71.2px;
+}
+
+.side-nav.open {
+  width: 75%;
+}
+
+.side-nav a {
+  padding: 12px 25px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  transition: 0.2s;
+  font-weight: bold;
+  list-style: none;
+}
+
+.side-nav a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.side-nav .closebtn {
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  font-size: 36px;
+  text-decoration: none;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+}
+
+img {
+  width: 50%;
+  height: 50%;
+  border: 2rem;
+  margin-top: 20%;
+  border-radius: 50%;
+  animation: hello 6s infinite;
+  animation-delay: 0.2s;
+}
+@keyframes hello {
+  from {
+    transform: rotateX(360deg);
+  }
+  50% {
+    transform: rotateY(120deg);
+  }
+  
+  100% {
+    transform: none;
+  }
+}
+h1 span {
+  color: blue;
+}
+
+header {
+  display: flex;
+}
+footer {
+  color: white;
+}
